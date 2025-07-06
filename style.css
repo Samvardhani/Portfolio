@@ -1,0 +1,89 @@
+/* Particle background */
+#particles-js {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 0;
+  background: #232931;
+}
+
+/* Main content centering */
+.center-box {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e0e0e0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding: 0 1rem;
+}
+
+.welcome {
+  font-size: 1.1rem;
+  color: #bdbdbd;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #fff;
+}
+
+.highlight {
+  display: inline-block;
+  color: #1abc9c;
+  font-weight: 800;
+  font-size: 2.3rem;
+  margin-top: 0.2rem;
+}
+
+.subtitle {
+  color: #bdbdbd;
+  font-size: 1.13rem;
+  max-width: 500px;
+  margin: 0 auto 2.1rem auto;
+}
+
+.social-icons {
+  margin: 1.2rem 0 1.7rem 0;
+}
+.social-icons a {
+  color: #bdbdbd;
+  font-size: 1.7rem;
+  margin: 0 0.6rem;
+  transition: color 0.2s;
+}
+.social-icons a:hover {
+  color: #1abc9c;
+}
+
+.main-nav {
+  margin-top: 0.7rem;
+}
+.main-nav a {
+  color: #e0e0e0;
+  margin: 0 1.2rem;
+  font-size: 1.07rem;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: color 0.2s;
+}
+.main-nav a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 2rem; }
+  .highlight { font-size: 1.5rem; }
+  .subtitle { font-size: 1rem; }
+  .main-nav a { margin: 0 0.5rem; }
+}
